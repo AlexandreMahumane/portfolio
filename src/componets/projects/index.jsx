@@ -1,5 +1,6 @@
 import { data } from "../../database/data";
 import { motion } from "framer-motion";
+import pic2 from "../../../public/pic2.jpg"
 
 export const Projects = () =>{
     return(
@@ -21,15 +22,17 @@ export const Projects = () =>{
                whileInView={{ opacity: 1, x: 0}}
                initial={{ opacity: 0, x: -100}}
                transition={{duration: 1}} 
-                className="rounded mt-2 bg-slate-500 sm:w-40 w-52 h-36">
-
+                className=" mt-2  sm:w-40 w-52 h-36">
+                        <img src={pic2} alt="about me pic"
+                    className="rounded-lg"
+                     />
                 </motion.div>
                 <motion.div 
                whileInView={{ opacity: 1, x: 0}}
                initial={{ opacity: 0, x: 100}}
                transition={{duration: 1}} 
                 className="ml-24  sm:ml-0">
-                    <h4 className="sm:mt-2">{info.name}</h4>
+                    <h4 className="sm:mt-2"><a target="_blank" href={info.link}>{info.name}</a> </h4>
                     <p className="flex w-[450px] sm:w-full text-neutral-400 flex-wrap">
                         {info.description}
                     </p>

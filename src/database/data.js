@@ -1,31 +1,26 @@
 export const data =[
     {
         id: 1,
-        name: "Be prepared",
-        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. "+
-        "Animi officiis doloremque, voluptatem placeat earum praesentium, assumenda "+
-        "expedita veritatis ipsa fuga minus culpa hic libero voluptate officia! "+
-        "Natus dicta nostrum vel!",
+        name: "Cine Mania",
+        linkgit: "https://github.com/AlexandreMahumane/Cine_Mania",
+        link: "https://cine-mania-one.vercel.app",
+        description:"Cine Mania is a web application developed by Alexandre Mahumane Junior to facilitate access to and download of movies online. The application offers users a wide selection of movies to download directly to their devices.",
 
-        techs:["Node.js", "Redis", "MySql"]
+        techs:["React.js"]
     },
     {
         id: 2,
-        name: "Be prepared",
-        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. "+
-        "Animi officiis doloremque, voluptatem placeat earum praesentium, assumenda "+
-        "expedita veritatis ipsa fuga minus culpa hic libero voluptate officia! "+
-        "Natus dicta nostrum vel!",
+        name: "To do list api",
+        link: "https://github.com/AlexandreMahumane/tdl_backEnd",
+        description:"A powerful and secure To-Do List application developed with Java Spring Boot and MySQL. Key features include: - Add, delete, and view tasks - Track timestamps for task addition and completion - View completed tasks and deleted task history - Secure user account creation with primary and public key token-based security - Pagination for tasks",
 
-        techs:["Node.js", "Redis", "MySql"]
+        techs:["Springboot", "MySql"]
     },
     {
         id: 3,
         name: "Be prepared",
-        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. "+
-        "Animi officiis doloremque, voluptatem placeat earum praesentium, assumenda "+
-        "expedita veritatis ipsa fuga minus culpa hic libero voluptate officia! "+
-        "Natus dicta nostrum vel!",
+        link: "https://github.com/AlexandreMahumane/bePrepared_backEnd",
+        description:"Be prered is an API that is part of a full stack project that aims to help people who are in a danger zone receive alerts so they can take precautions (for example if the area is about to be affected by a cyclone) and not only , it also helps people who are in danger to send alerts so that they can be helped in time, thus avoiding the worst!",
 
         techs:["Node.js", "Redis", "MySql"]
     }
