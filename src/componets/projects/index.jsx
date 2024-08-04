@@ -15,7 +15,7 @@ export const Projects = () =>{
                 </motion.h2>
             </div>
 
-        <div className="flex flex-col sm:p-2 items-center justify-center">
+        <div className="flex flex-col sm:p-7 items-center justify-center">
            { 
             data.map(info =><div key={info.id} className="flex mb-5 sm:flex-col">
                 <motion.div 
