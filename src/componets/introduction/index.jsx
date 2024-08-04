@@ -30,7 +30,7 @@ export const Introduction = () =>{
             animate="visible"
             className="bg-gradient-to-r from-pink-300 
                         via-slate-500 to-purple-500 bg-clip-text tracking-tight text-3xl text-transparent">
-                  Full Stack Devoloper
+                  Full Stack Developer
             </motion.h3>
 
             <motion.p 
